@@ -9,8 +9,8 @@ import html, json, pathlib
 RAIZ = pathlib.Path(__file__).resolve().parent.parent
 SRC = RAIZ / "src"
 SLUG = "kit-15-comandos"
-REPO = f"https://github.com/inematds/{SLUG}"
-SITE = f"https://inematds.github.io/{SLUG}/guia/"
+REPO = f"https://github.com/linnoff88-dev/{SLUG}"
+SITE = f"https://linnoff88-dev.github.io/arckhe-{SLUG}/guia/"
 ZIP = f"{REPO}/releases/download/kit-v1.0.0/{SLUG}.zip"
 LANGS = ["pt", "en", "es"]
 CSS = (SRC / "base.css.html").read_text()
@@ -82,13 +82,13 @@ def construir(lang, videos):
 
     def dica(x):
         como = "".join(f"<li>{esc(i)}</li>" for i in x["como"])
-        ln = "".join(f'<a href="{u}" target="_blank" rel="noopener">{esc(a)} ↗</a>' for a, u in x["inema"])
+        ln = "".join(f'<a href="{u}" target="_blank" rel="noopener">{esc(a)} ↗</a>' for a, u in x["ARCKHÉ"])
         return f"""<article class="dica" id="d{x['n']}">
   <div class="top"><span class="n">{x['n']}</span><h4>{esc(x['titulo'])}</h4><span class="st {x['st']}">{esc(st[x['st']])}</span></div>
   <code class="cmd">{esc(x['cmd'])}</code>
   <div class="lb">{esc(d['rot_mudou'])}</div><p>{esc(x['mudou'])}</p>
   <div class="lb">{esc(d['rot_como'])}</div><ol>{como}</ol>
-  <div class="lb">{esc(d['rot_inema'])}</div><div class="ln">{ln}</div>
+  <div class="lb">{esc(d['rot_ARCKHÉ'])}</div><div class="ln">{ln}</div>
 </article>"""
 
     camadas = "".join(f"""<div class="camada" id="{c['id']}">
@@ -185,9 +185,9 @@ def construir(lang, videos):
   <a class="brand" href="./"><span class="emoji">⌨️</span> {esc(d['title'])}</a>
   <span class="sep">|</span>
   <span class="clubpro">
-    <a class="inema" href="https://inema.club" target="_blank" rel="noopener">INEMA.CLUB</a>
+    <a class="ARCKHÉ" href="https://ARCKHÉ AI" target="_blank" rel="noopener">ARCKHÉ AI</a>
     <span class="sep">-</span>
-    <a class="pro" href="https://inema.pro" target="_blank" rel="noopener">PRO</a>
+    <a class="pro" href="https://ARCKHÉ.pro" target="_blank" rel="noopener">PRO</a>
   </span>
   <div class="links">
     {links}
@@ -200,7 +200,7 @@ def construir(lang, videos):
 <footer>
   <div class="wrap">
     {"".join(f'<div class="pill">{esc(s)}</div>' for s in d['footer']['stack'])}
-    <p style="margin-top:18px">{esc(d['title'])} · {esc(d['footer']['nota'])} · <a href="{REPO}">inematds/{SLUG}</a> · <a href="https://inema.club">INEMA.CLUB</a></p>
+    <p style="margin-top:18px">{esc(d['title'])} · {esc(d['footer']['nota'])} · <a href="{REPO}">linnoff88-dev/{SLUG}</a> · <a href="https://ARCKHÉ AI">ARCKHÉ AI</a></p>
   </div>
 </footer>
 <script>

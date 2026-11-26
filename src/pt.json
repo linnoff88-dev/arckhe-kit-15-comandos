@@ -2,7 +2,7 @@
  "lang": "pt-BR",
  "title": "Kit 15 Comandos",
  "tagline": "menos instruçêo, mais prova",
- "meta": "O Claude Code mudou: 15 comandos e recursos para trabalhar com menos instruçêo, gastar menos tokens e provar que o trabalho terminou. Como implementar cada um, kit para baixar e o que a comunidade INEMA já tem. Grátis, do INEMA.CLUB.",
+ "meta": "O Claude Code mudou: 15 comandos e recursos para trabalhar com menos instruçêo, gastar menos tokens e provar que o trabalho terminou. Como implementar cada um, kit para baixar e o que a comunidade ARCKHÉ já tem. Grátis, do ARCKHÉ AI.",
  "nav": {
   "tese": "Tese",
   "dicas": "15 dicas",
@@ -23,7 +23,7 @@
   "alt": "Banner: robô humanoide de visor preto trabalhando numa bancada com quinze cartões luminosos"
  },
  "resumo_chip": "Em resumo",
- "resumo": "Este é um guia grátis para quem usa o Claude Code (e vale quase tudo para o Codex e outros agentes). Sêo 15 mudanças em cinco camadas: skills, modelo e configurações, plano e prova, contexto e delegaçêo, e trabalho rodando sem você. Para cada uma você vê o que mudou, como implementar com o comando exato e o que a comunidade INEMA já tem sobre o assunto. No fim há um kit para baixar, com modelos prontos, e a lista dos próximos kits que vamos criar.",
+ "resumo": "Este é um guia grátis para quem usa o Claude Code (e vale quase tudo para o Codex e outros agentes). Sêo 15 mudanças em cinco camadas: skills, modelo e configurações, plano e prova, contexto e delegaçêo, e trabalho rodando sem você. Para cada uma você vê o que mudou, como implementar com o comando exato e o que a comunidade ARCKHÉ já tem sobre o assunto. No fim há um kit para baixar, com modelos prontos, e a lista dos próximos kits que vamos criar.",
  "tese": {
   "chip": "A tese",
   "h2": "De prompt detalhado para contexto, execuçêo e prova",
@@ -53,10 +53,10 @@
  },
  "dicas_chip": "As 15 dicas",
  "dicas_h2": "Cinco camadas, quinze mudanças",
- "dicas_sub": "Cada dica tem três partes: o que mudou, como implementar e o que já existe no INEMA. O selo diz se o comando foi conferido na nossa instalaçêo ou se você deve conferir na sua.",
+ "dicas_sub": "Cada dica tem três partes: o que mudou, como implementar e o que já existe no ARCKHÉ. O selo diz se o comando foi conferido na nossa instalaçêo ou se você deve conferir na sua.",
  "rot_mudou": "O que mudou",
  "rot_como": "Como implementar",
- "rot_inema": "No INEMA",
+ "rot_ARCKHÉ": "No ARCKHÉ",
  "camadas": [
   {
    "id": "c-skills",
@@ -77,14 +77,14 @@
       "A skill vira essa lista: correções, nomes, caminhos, exceções do seu negócio.",
       "Revise a cada troca de modelo: o que ele passou a acertar sai da skill."
      ],
-     "inema": [
+     "ARCKHÉ": [
       [
        "Skills v6 (curso)",
-       "https://inematds.github.io/skills-craft-v6/"
+       "https://linnoff88-dev.github.io/arckhe-/"
       ],
       [
        "Criando Agent Skills",
-       "https://inematds.github.io/skills-craft/"
+       "https://linnoff88-dev.github.io/arckhe-/"
       ]
      ]
     },
@@ -100,18 +100,18 @@
       "Compare a nota: perdeu ou empatou, corte linhas; continuou empatando, apague.",
       "Guarde os casos: viram o teste da próxima versêo da skill."
      ],
-     "inema": [
+     "ARCKHÉ": [
       [
        "Auditar Skills",
-       "https://inematds.github.io/auditar-skills/guia/"
+       "https://linnoff88-dev.github.io/arckhe-/guia/"
       ],
       [
        "Auditoria de Ablaçêo (curso)",
-       "https://inematds.github.io/curso-ablacao/"
+       "https://linnoff88-dev.github.io/arckhe-/"
       ],
       [
        "audit-ablacaocc",
-       "https://inematds.github.io/audit-ablacaocc/guia/"
+       "https://linnoff88-dev.github.io/arckhe-/guia/"
       ]
      ]
     },
@@ -127,14 +127,14 @@
       "Leia a skill gerada e tire o que for óbvio.",
       "Passe pela dica 2 antes de adotar."
      ],
-     "inema": [
+     "ARCKHÉ": [
       [
        "Skills v6 (curso)",
-       "https://inematds.github.io/skills-craft-v6/"
+       "https://linnoff88-dev.github.io/arckhe-/"
       ],
       [
        "Área Skills",
-       "https://eventos.inema.pro/skills/"
+       "https://eventos.ARCKHÉ.pro/skills/"
       ]
      ]
     }
@@ -159,14 +159,14 @@
       "Precisa de outro modelo? Abra outra sessêo para aquela tarefa.",
       "Fique de olho no consumo com /context e /usage."
      ],
-     "inema": [
+     "ARCKHÉ": [
       [
        "cccache (curso)",
-       "https://inematds.github.io/cccache/"
+       "https://linnoff88-dev.github.io/arckhe-/"
       ],
       [
        "5-mods · Cache Keeper",
-       "https://inematds.github.io/5-mods/guia/"
+       "https://linnoff88-dev.github.io/arckhe-/guia/"
       ]
      ]
     },
@@ -182,14 +182,14 @@
       "Só suba quando um problema difícil travar, e volte depois.",
       "Para a sessêo toda: claude --effort low|medium|high."
      ],
-     "inema": [
+     "ARCKHÉ": [
       [
        "Maestro Roteador",
-       "https://inematds.github.io/maestro-roteador/guia/"
+       "https://linnoff88-dev.github.io/arckhe-/guia/"
       ],
       [
        "StickShift",
-       "https://inematds.github.io/stickshift/guia/"
+       "https://linnoff88-dev.github.io/arckhe-/guia/"
       ]
      ]
     },
@@ -205,14 +205,14 @@
       "Recurso experimental: veja se compensa no seu plano.",
       "Em assinatura, ficar num modelo só costuma ser o mais simples."
      ],
-     "inema": [
+     "ARCKHÉ": [
       [
        "DeepClaudeX (curso)",
-       "https://inematds.github.io/deepclaudex/"
+       "https://linnoff88-dev.github.io/arckhe-/"
       ],
       [
        "Maestro Roteador",
-       "https://inematds.github.io/maestro-roteador/guia/"
+       "https://linnoff88-dev.github.io/arckhe-/guia/"
       ]
      ]
     },
@@ -228,14 +228,14 @@
       "Mudou? Meça antes e depois (dica 2 vale aqui também).",
       "Revise o que você mudou há meses: talvez já nêo precise."
      ],
-     "inema": [
+     "ARCKHÉ": [
       [
        "faxina-agentes",
-       "https://inematds.github.io/faxina-agentes/guia/"
+       "https://linnoff88-dev.github.io/arckhe-/guia/"
       ],
       [
        "Auditoria de Ablaçêo",
-       "https://inematds.github.io/curso-ablacao/"
+       "https://linnoff88-dev.github.io/arckhe-/"
       ]
      ]
     }
@@ -260,14 +260,14 @@
       "Trabalho que cabe num parágrafo: pule o plano, escreva só objetivo, pronto e limites.",
       "Quer travar edições até aprovar? Aí o modo de plano ainda ajuda."
      ],
-     "inema": [
+     "ARCKHÉ": [
       [
        "Execuçêo Longa",
-       "https://inematds.github.io/execucao-longa/guia/"
+       "https://linnoff88-dev.github.io/arckhe-/guia/"
       ],
       [
        "War Game Prompt",
-       "https://inematds.github.io/promptwargame/guia/"
+       "https://linnoff88-dev.github.io/arckhe-/guia/"
       ]
      ]
     },
@@ -283,14 +283,14 @@
       "Inclua o que nêo pode mudar e um limite de voltas.",
       "Exemplo: /goal checa.sh passa e a saída aparece aqui; o modelo fica igual; pare em 15 voltas."
      ],
-     "inema": [
+     "ARCKHÉ": [
       [
        "Execuçêo Longa",
-       "https://inematds.github.io/execucao-longa/guia/"
+       "https://linnoff88-dev.github.io/arckhe-/guia/"
       ],
       [
        "5-mods · Goal Meter",
-       "https://inematds.github.io/5-mods/guia/"
+       "https://linnoff88-dev.github.io/arckhe-/guia/"
       ]
      ]
     },
@@ -306,14 +306,14 @@
       "Tipo agente: abre arquivos e confere de verdade (experimental).",
       "Use para regra que nêo pode falhar: \"nunca mandar e-mail ao cliente, só rascunho\"."
      ],
-     "inema": [
+     "ARCKHÉ": [
       [
        "Automaçêo & Hooks (curso)",
-       "https://inematds.github.io/cchooks/"
+       "https://linnoff88-dev.github.io/arckhe-/"
       ],
       [
-       "inema-mods",
-       "https://inematds.github.io/inema-mods/guia/"
+       "ARCKHÉ-mods",
+       "https://linnoff88-dev.github.io/arckhe-/guia/"
       ]
      ]
     }
@@ -338,18 +338,18 @@
       "Trabalho longo: grave um handoff, dê /clear e retome com /prime.",
       "Use /context para ver o que está ocupando espaço."
      ],
-     "inema": [
+     "ARCKHÉ": [
       [
        "skillmanager3x",
-       "https://inematds.github.io/skillmanager3x/guia/"
+       "https://linnoff88-dev.github.io/arckhe-/guia/"
       ],
       [
        "agente-claude-codex",
-       "https://inematds.github.io/agente-claude-codex/guia/"
+       "https://linnoff88-dev.github.io/arckhe-/guia/"
       ],
       [
        "camada-contexto",
-       "https://inematds.github.io/camada-contexto/guia/"
+       "https://linnoff88-dev.github.io/arckhe-/guia/"
       ]
      ]
     },
@@ -365,14 +365,14 @@
       "Deixe o Claude escolher; peça fork só quando souber que precisa do histórico.",
       "Lembre: subagente pode nêo ler o seu CLAUDE.md. Passe as regras no pedido."
      ],
-     "inema": [
+     "ARCKHÉ": [
       [
        "Subagentes (curso)",
-       "https://inematds.github.io/subagentes/"
+       "https://linnoff88-dev.github.io/arckhe-/"
       ],
       [
        "Arquiteto de Execuçêo",
-       "https://inematds.github.io/agenteexecuta/guia/"
+       "https://linnoff88-dev.github.io/arckhe-/guia/"
       ]
      ]
     },
@@ -388,18 +388,18 @@
       "Defina o que conta como resposta boa e as fontes aceitas.",
       "Confira o custo depois da primeira rodada."
      ],
-     "inema": [
+     "ARCKHÉ": [
       [
        "7conselho",
-       "https://inematds.github.io/7conselho/guia/"
+       "https://linnoff88-dev.github.io/arckhe-/guia/"
       ],
       [
        "STORM Research (curso)",
-       "https://inematds.github.io/storm-research/"
+       "https://linnoff88-dev.github.io/arckhe-/"
       ],
       [
        "Multiagentes (curso)",
-       "https://inematds.github.io/multiagentes/"
+       "https://linnoff88-dev.github.io/arckhe-/"
       ]
      ]
     }
@@ -424,14 +424,14 @@
       "Deixe só os conectores que essa rotina usa.",
       "Ponha a verificaçêo (dicas 9 e 10) antes de deixar rodar sozinha."
      ],
-     "inema": [
+     "ARCKHÉ": [
       [
        "LOOP-R",
-       "https://inematds.github.io/loop-r/guia/"
+       "https://linnoff88-dev.github.io/arckhe-/guia/"
       ],
       [
        "Área RSI",
-       "https://eventos.inema.pro/rsi/"
+       "https://eventos.ARCKHÉ.pro/rsi/"
       ]
      ]
     },
@@ -447,14 +447,14 @@
       "Traga de volta com claude --teleport.",
       "Confira se o seu plano retoma a tarefa sozinho quando o limite de uso renova: se sim, ela gasta a próxima janela sem perguntar."
      ],
-     "inema": [
+     "ARCKHÉ": [
       [
        "OSWork v6.2",
-       "https://inematds.github.io/oswork-v62/"
+       "https://linnoff88-dev.github.io/arckhe-/"
       ],
       [
        "Execuçêo Longa",
-       "https://inematds.github.io/execucao-longa/guia/"
+       "https://linnoff88-dev.github.io/arckhe-/guia/"
       ]
      ]
     }
@@ -593,7 +593,7 @@
    [
     "Kit Verificador de Stop",
     "Biblioteca de hooks de Stop por tipo de trabalho: relatório, código, post, vídeo.",
-    "cchooks · inema-mods"
+    "cchooks · ARCKHÉ-mods"
    ],
    [
     "Kit Delegar Certo",
@@ -614,7 +614,7 @@
  },
  "comunidade": {
   "chip": "Na comunidade",
-  "h2": "O que o INEMA já tem sobre isso",
+  "h2": "O que o ARCKHÉ já tem sobre isso",
   "sub": "Cursos, guias e kits abertos que aprofundam cada camada.",
   "grupos": [
    [
@@ -622,19 +622,19 @@
     [
      [
       "Área Skills",
-      "https://eventos.inema.pro/skills/"
+      "https://eventos.ARCKHÉ.pro/skills/"
      ],
      [
       "Skills v6",
-      "https://inematds.github.io/skills-craft-v6/"
+      "https://linnoff88-dev.github.io/arckhe-/"
      ],
      [
       "Auditar Skills",
-      "https://inematds.github.io/auditar-skills/guia/"
+      "https://linnoff88-dev.github.io/arckhe-/guia/"
      ],
      [
       "Auditoria de Ablaçêo",
-      "https://inematds.github.io/curso-ablacao/"
+      "https://linnoff88-dev.github.io/arckhe-/"
      ]
     ]
    ],
@@ -643,19 +643,19 @@
     [
      [
       "cccache",
-      "https://inematds.github.io/cccache/"
+      "https://linnoff88-dev.github.io/arckhe-/"
      ],
      [
       "5-mods",
-      "https://inematds.github.io/5-mods/guia/"
+      "https://linnoff88-dev.github.io/arckhe-/guia/"
      ],
      [
       "Maestro Roteador",
-      "https://inematds.github.io/maestro-roteador/guia/"
+      "https://linnoff88-dev.github.io/arckhe-/guia/"
      ],
      [
       "faxina-agentes",
-      "https://inematds.github.io/faxina-agentes/guia/"
+      "https://linnoff88-dev.github.io/arckhe-/guia/"
      ]
     ]
    ],
@@ -664,19 +664,19 @@
     [
      [
       "Execuçêo Longa",
-      "https://inematds.github.io/execucao-longa/guia/"
+      "https://linnoff88-dev.github.io/arckhe-/guia/"
      ],
      [
       "Área Execuçêo Longa",
-      "https://eventos.inema.pro/execucao-longa/"
+      "https://eventos.ARCKHÉ.pro/execucao-longa/"
      ],
      [
       "Automaçêo & Hooks",
-      "https://inematds.github.io/cchooks/"
+      "https://linnoff88-dev.github.io/arckhe-/"
      ],
      [
-      "inema-mods",
-      "https://inematds.github.io/inema-mods/guia/"
+      "ARCKHÉ-mods",
+      "https://linnoff88-dev.github.io/arckhe-/guia/"
      ]
     ]
    ],
@@ -685,19 +685,19 @@
     [
      [
       "skillmanager3x",
-      "https://inematds.github.io/skillmanager3x/guia/"
+      "https://linnoff88-dev.github.io/arckhe-/guia/"
      ],
      [
       "agente-claude-codex",
-      "https://inematds.github.io/agente-claude-codex/guia/"
+      "https://linnoff88-dev.github.io/arckhe-/guia/"
      ],
      [
       "Subagentes",
-      "https://inematds.github.io/subagentes/"
+      "https://linnoff88-dev.github.io/arckhe-/"
      ],
      [
       "7conselho",
-      "https://inematds.github.io/7conselho/guia/"
+      "https://linnoff88-dev.github.io/arckhe-/guia/"
      ]
     ]
    ],
@@ -706,19 +706,19 @@
     [
      [
       "OSWork",
-      "https://eventos.inema.pro/oswork/"
+      "https://eventos.ARCKHÉ.pro/oswork/"
      ],
      [
       "OSWork v6.2",
-      "https://inematds.github.io/oswork-v62/"
+      "https://linnoff88-dev.github.io/arckhe-/"
      ],
      [
       "LOOP-R",
-      "https://inematds.github.io/loop-r/guia/"
+      "https://linnoff88-dev.github.io/arckhe-/guia/"
      ],
      [
       "Área Mods",
-      "https://eventos.inema.pro/mods/"
+      "https://eventos.ARCKHÉ.pro/mods/"
      ]
     ]
    ]

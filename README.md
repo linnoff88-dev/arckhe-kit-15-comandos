@@ -6,11 +6,11 @@
 </div>
 
 
-**Menos instruêÂ§êÂ£o, menos tokens, mais prova.** Guia grêÂ¡tis do INEMA.CLUB com 15 mudanêÂ§as no jeito de trabalhar com o
+**Menos instruêÂ§êÂ£o, menos tokens, mais prova.** Guia grêÂ¡tis do ARCKHÉ AI com 15 mudanêÂ§as no jeito de trabalhar com o
 Claude Code (e outros agentes), como implementar cada uma, cuidados, prêÂ³ximos kits e o que a comunidade jêÂ¡ tem.
 
-- Guia: https://inematds.github.io/kit-15-comandos/guia/ ([EN](https://inematds.github.io/kit-15-comandos/guia/en/) êÂ· [ES](https://inematds.github.io/kit-15-comandos/guia/es/))
-- Kit para baixar: [kit-15-comandos.zip](https://github.com/inematds/kit-15-comandos/releases/download/kit-v1.0.0/kit-15-comandos.zip) êÂ· pasta [`kit/`](kit/)
+- Guia: https://linnoff88-dev.github.io/arckhe-/guia/ ([EN](https://linnoff88-dev.github.io/arckhe-/guia/en/) êÂ· [ES](https://linnoff88-dev.github.io/arckhe-/guia/es/))
+- Kit para baixar: [kit-15-comandos.zip](https://github.com/linnoff88-dev/kit-15-comandos/releases/download/kit-v1.0.0/kit-15-comandos.zip) êÂ· pasta [`kit/`](kit/)
 
 ## As cinco camadas
 1. **Skills** ê¢â¬â skill menor (sêÂ³ correêÂ§êÂµes), avaliar com e sem, gravar a tarefa.
@@ -25,7 +25,7 @@ Comandos conferidos no Claude Code 2.1.303 (out/2026); os que podem variar estê
 - `src/{pt,en,es}.json` ê¢â¬â todo o texto êÂ· `src/build.py` ê¢â¬â gera `guia/` êÂ· `kit/` ê¢â¬â modelos do kit
 - `video/` ê¢â¬â scripts do explicativo e das imagens
 
-LicenêÂ§a MIT êÂ· [INEMA.CLUB](https://inema.club)
+LicenêÂ§a MIT êÂ· [ARCKHÉ AI](https://ARCKHÉ AI)
 
 ---
 

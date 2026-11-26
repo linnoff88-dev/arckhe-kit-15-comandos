@@ -1,7 +1,7 @@
-# Kit 15 Comandos — INEMA.CLUB
+# Kit 15 Comandos — ARCKHÉ AI
 
 Modelos prontos para trabalhar com o Claude Code (e outros agentes) com **menos instruçêo, menos tokens e prova de
-que terminou**. Grátis. Guia: https://inematds.github.io/kit-15-comandos/guia/
+que terminou**. Grátis. Guia: https://linnoff88-dev.github.io/arckhe-/guia/
 
 | Arquivo | Dicas | Para quê |
 |---|---|---|

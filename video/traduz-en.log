@@ -10,7 +10,7 @@ reasoning summaries: none
 session id: 01a151eb-a8d3-7e93-b4ef-63132173d49c
 --------
 user
-Traduza para inglês (en-US) o arquivo JSON src/pt.json deste diretório e grave o resultado em src/en.json. Regras: mantenha EXATAMENTE a mesma estrutura, as mesmas chaves, a mesma ordem e o mesmo número de itens em cada lista; traduza só os textos para leitura humana. NÃO traduza: URLs, nomes de arquivo, comandos (tudo que começa com / ou -- ou claude, Shift+Tab, checa.sh, CLAUDE.md, SKILL.md), valores das chaves id, img, st, n, e nomes próprios de projetos e cursos INEMA (ex.: Execução Longa, Skills v6, OSWork, LOOP-R, 7conselho, faxina-agentes). Troque a chave lang por "en". Dentro de hero.h1 mantenha o <span class="amb"> em volta de '15 comandos' traduzido. Tom simples e direto. Não edite nenhum outro arquivo.
+Traduza para inglês (en-US) o arquivo JSON src/pt.json deste diretório e grave o resultado em src/en.json. Regras: mantenha EXATAMENTE a mesma estrutura, as mesmas chaves, a mesma ordem e o mesmo número de itens em cada lista; traduza só os textos para leitura humana. NÃO traduza: URLs, nomes de arquivo, comandos (tudo que começa com / ou -- ou claude, Shift+Tab, checa.sh, CLAUDE.md, SKILL.md), valores das chaves id, img, st, n, e nomes próprios de projetos e cursos ARCKHÉ (ex.: Execução Longa, Skills v6, OSWork, LOOP-R, 7conselho, faxina-agentes). Troque a chave lang por "en". Dentro de hero.h1 mantenha o <span class="amb"> em volta de '15 comandos' traduzido. Tom simples e direto. Não edite nenhum outro arquivo.
 
 2026-10-19T02:09:21.520552Z ERROR rmcp::transport::worker: worker quit with fatal: Transport channel closed, when AuthRequired(AuthRequiredError { www_authenticate_header: "Bearer error=\"invalid_token\", resource_metadata=\"https://mcp.magnific.com/.well-known/oauth-protected-resource\", scope=\"openid profile email mcp:custom-audience\"" })
 2026-10-19T02:09:21.995780Z ERROR rmcp::transport::worker: worker quit with fatal: Transport channel closed, when AuthRequired(AuthRequiredError { www_authenticate_header: "Bearer error=\"invalid_token\", resource_metadata=\"https://mcp.magnific.com/.well-known/oauth-protected-resource\", scope=\"openid profile email mcp:custom-audience\"" })
@@ -60,7 +60,7 @@ Antes de limpar a conversa, grave `handoffs/ultimo.md` (modelo em `HANDOFF.md`) 
  "lang": "pt-BR",
  "title": "Kit 15 Comandos",
  "tagline": "menos instrução, mais prova",
- "meta": "O Claude Code mudou: 15 comandos e recursos para trabalhar com menos instrução, gastar menos tokens e provar que o trabalho terminou. Como implementar cada um, kit para baixar e o que a comunidade INEMA já tem. Grátis, do INEMA.CLUB.",
+ "meta": "O Claude Code mudou: 15 comandos e recursos para trabalhar com menos instrução, gastar menos tokens e provar que o trabalho terminou. Como implementar cada um, kit para baixar e o que a comunidade ARCKHÉ já tem. Grátis, do ARCKHÉ AI.",
  "nav": {
   "tese": "Tese",
   "dicas": "15 dicas",
@@ -81,7 +81,7 @@ Antes de limpar a conversa, grave `handoffs/ultimo.md` (modelo em `HANDOFF.md`) 
   "alt": "Banner: robô humanoide de visor preto trabalhando numa bancada com quinze cartões luminosos"
  },
  "resumo_chip": "Em resumo",
- "resumo": "Este é um guia grátis para quem usa o Claude Code (e vale quase tudo para o Codex e outros agentes). São 15 mudanças em cinco camadas: skills, modelo e configurações, plano e prova, contexto e delegação, e trabalho rodando sem você. Para cada uma você vê o que mudou, como implementar com o comando exato e o que a comunidade INEMA já tem sobre o assunto. No fim há um kit para baixar, com modelos prontos, e a lista dos próximos kits que vamos criar.",
+ "resumo": "Este é um guia grátis para quem usa o Claude Code (e vale quase tudo para o Codex e outros agentes). São 15 mudanças em cinco camadas: skills, modelo e configurações, plano e prova, contexto e delegação, e trabalho rodando sem você. Para cada uma você vê o que mudou, como implementar com o comando exato e o que a comunidade ARCKHÉ já tem sobre o assunto. No fim há um kit para baixar, com modelos prontos, e a lista dos próximos kits que vamos criar.",
  "tese": {
   "chip": "A tese",
   "h2": "De prompt detalhado para contexto, execução e prova",
@@ -111,10 +111,10 @@ Antes de limpar a conversa, grave `handoffs/ultimo.md` (modelo em `HANDOFF.md`) 
  },
  "dicas_chip": "As 15 dicas",
  "dicas_h2": "Cinco camadas, quinze mudanças",
- "dicas_sub": "Cada dica tem três partes: o que mudou, como implementar e o que já existe no INEMA. O selo diz se o comando foi conferido na nossa instalação ou se você deve conferir na sua.",
+ "dicas_sub": "Cada dica tem três partes: o que mudou, como implementar e o que já existe no ARCKHÉ. O selo diz se o comando foi conferido na nossa instalação ou se você deve conferir na sua.",
  "rot_mudou": "O que mudou",
  "rot_como": "Como implementar",
- "rot_inema": "No INEMA",
+ "rot_ARCKHÉ": "No ARCKHÉ",
  "camadas": [
   {
    "id": "c-skills",
@@ -135,14 +135,14 @@ Antes de limpar a conversa, grave `handoffs/ultimo.md` (modelo em `HANDOFF.md`) 
       "A skill vira essa lista: correções, nomes, caminhos, exceções do seu negócio.",
       "Revise a cada troca de modelo: o que ele passou a acertar sai da skill."
      ],
-     "inema": [
+     "ARCKHÉ": [
       [
        "Skills v6 (curso)",
-       "https://inematds.github.io/skills-craft-v6/"
+       "https://linnoff88-dev.github.io/arckhe-/"
       ],
       [
        "Criando Agent Skills",
-       "https://inematds.github.io/skills-craft/"
+       "https://linnoff88-dev.github.io/arckhe-/"
       ]
      ]
     },
@@ -158,18 +158,18 @@ Antes de limpar a conversa, grave `handoffs/ultimo.md` (modelo em `HANDOFF.md`) 
       "Compare a nota: perdeu ou empatou, corte linhas; continuou empatando, apague.",
       "Guarde os casos: viram o teste da próxima versão da skill."
      ],
-     "inema": [
+     "ARCKHÉ": [
       [
        "Auditar Skills",
-       "https://inematds.github.io/auditar-skills/guia/"
+       "https://linnoff88-dev.github.io/arckhe-/guia/"
       ],
       [
        "Auditoria de Ablação (curso)",
-       "https://inematds.github.io/curso-ablacao/"
+       "https://linnoff88-dev.github.io/arckhe-/"
       ],
       [
        "audit-ablacaocc",
-       "https://inematds.github.io/audit-ablacaocc/guia/"
+       "https://linnoff88-dev.github.io/arckhe-/guia/"
       ]
      ]
     },
@@ -185,14 +185,14 @@ Antes de limpar a conversa, grave `handoffs/ultimo.md` (modelo em `HANDOFF.md`) 
       "Leia a skill gerada e tire o que for óbvio.",
       "Passe pela dica 2 antes de adotar."
      ],
-     "inema": [
+     "ARCKHÉ": [
       [
        "Skills v6 (curso)",
-       "https://inematds.github.io/skills-craft-v6/"
+       "https://linnoff88-dev.github.io/arckhe-/"
       ],
       [
        "Área Skills",
-       "https://eventos.inema.pro/skills/"
+       "https://eventos.ARCKHÉ.pro/skills/"
       ]
      ]
     }
@@ -217,14 +217,14 @@ Antes de limpar a conversa, grave `handoffs/ultimo.md` (modelo em `HANDOFF.md`) 
       "Precisa de outro modelo? Abra outra sessão para aquela tarefa.",
       "Fique de olho no consumo com /context e /usage."
      ],
-     "inema": [
+     "ARCKHÉ": [
       [
        "cccache (curso)",
-       "https://inematds.github.io/cccache/"
+       "https://linnoff88-dev.github.io/arckhe-/"
       ],
       [
        "5-mods · Cache Keeper",
-       "https://inematds.github.io/5-mods/guia/"
+       "https://linnoff88-dev.github.io/arckhe-/guia/"
       ]
      ]
     },
@@ -240,14 +240,14 @@ Antes de limpar a conversa, grave `handoffs/ultimo.md` (modelo em `HANDOFF.md`) 
       "Só suba quando um problema difícil travar, e volte depois.",
       "Para a sessão toda: claude --effort low|medium|high."
      ],
-     "inema": [
+     "ARCKHÉ": [
       [
        "Maestro Roteador",
-       "https://inematds.github.io/maestro-roteador/guia/"
+       "https://linnoff88-dev.github.io/arckhe-/guia/"
       ],
       [
        "StickShift",
-       "https://inematds.github.io/stickshift/guia/"
+       "https://linnoff88-dev.github.io/arckhe-/guia/"
       ]
      ]
     },
@@ -263,14 +263,14 @@ Antes de limpar a conversa, grave `handoffs/ultimo.md` (modelo em `HANDOFF.md`) 
       "Recurso experimental: veja se compensa no seu plano.",
       "Em assinatura, ficar num modelo só costuma ser o mais simples."
      ],
-     "inema": [
+     "ARCKHÉ": [
       [
        "DeepClaudeX (curso)",
-       "https://inematds.github.io/deepclaudex/"
+       "https://linnoff88-dev.github.io/arckhe-/"
       ],
       [
        "Maestro Roteador",
-       "https://inematds.github.io/maestro-roteador/guia/"
+       "https://linnoff88-dev.github.io/arckhe-/guia/"
       ]
      ]
     },
@@ -286,14 +286,14 @@ Antes de limpar a conversa, grave `handoffs/ultimo.md` (modelo em `HANDOFF.md`) 
       "Mudou? Meça antes e depois (dica 2 vale aqui também).",
       "Revise o que você mudou há meses: talvez já não precise."
      ],
-     "inema": [
+     "ARCKHÉ": [
       [
        "faxina-agentes",
-       "https://inematds.github.io/faxina-agentes/guia/"
+       "https://linnoff88-dev.github.io/arckhe-/guia/"
       ],
       [
        "Auditoria de Ablação",
-       "https://inematds.github.io/curso-ablacao/"
+       "https://linnoff88-dev.github.io/arckhe-/"
       ]
      ]
     }
@@ -318,14 +318,14 @@ Antes de limpar a conversa, grave `handoffs/ultimo.md` (modelo em `HANDOFF.md`) 
       "Trabalho que cabe num parágrafo: pule o plano, escreva só objetivo, pronto e limites.",
       "Quer travar edições até aprovar? Aí o modo de plano ainda ajuda."
      ],
-     "inema": [
+     "ARCKHÉ": [
       [
        "Execução Longa",
-       "https://inematds.github.io/execucao-longa/guia/"
+       "https://linnoff88-dev.github.io/arckhe-/guia/"
       ],
       [
        "War Game Prompt",
-       "https://inematds.github.io/promptwargame/guia/"
+       "https://linnoff88-dev.github.io/arckhe-/guia/"
       ]
      ]
     },
@@ -341,14 +341,14 @@ Antes de limpar a conversa, grave `handoffs/ultimo.md` (modelo em `HANDOFF.md`) 
       "Inclua o que não pode mudar e um limite de voltas.",
       "Exemplo: /goal checa.sh passa e a saída aparece aqui; o modelo fica igual; pare em 15 voltas."
      ],
-     "inema": [
+     "ARCKHÉ": [
       [
        "Execução Longa",
-       "https://inematds.github.io/execucao-longa/guia/"
+       "https://linnoff88-dev.github.io/arckhe-/guia/"
       ],
       [
        "5-mods · Goal Meter",
-       "https://inematds.github.io/5-mods/guia/"
+       "https://linnoff88-dev.github.io/arckhe-/guia/"
       ]
      ]
     },
@@ -364,14 +364,14 @@ Antes de limpar a conversa, grave `handoffs/ultimo.md` (modelo em `HANDOFF.md`) 
       "Tipo agente: abre arquivos e confere de verdade (experimental).",
       "Use para regra que não pode falhar: \"nunca mandar e-mail ao cliente, só rascunho\"."
      ],
-     "inema": [
+     "ARCKHÉ": [
       [
        "Automação & Hooks (curso)",
-       "https://inematds.github.io/cchooks/"
+       "https://linnoff88-dev.github.io/arckhe-/"
       ],
       [
-       "inema-mods",
-       "https://inematds.github.io/inema-mods/guia/"
+       "ARCKHÉ-mods",
+       "https://linnoff88-dev.github.io/arckhe-/guia/"
       ]
      ]
     }
@@ -396,18 +396,18 @@ Antes de limpar a conversa, grave `handoffs/ultimo.md` (modelo em `HANDOFF.md`) 
       "Trabalho longo: grave um handoff, dê /clear e retome com /prime.",
       "Use /context para ver o que está ocupando espaço."
      ],
-     "inema": [
+     "ARCKHÉ": [
       [
        "skillmanager3x",
-       "https://inematds.github.io/skillmanager3x/guia/"
+       "https://linnoff88-dev.github.io/arckhe-/guia/"
       ],
       [
        "agente-claude-codex",
-       "https://inematds.github.io/agente-claude-codex/guia/"
+       "https://linnoff88-dev.github.io/arckhe-/guia/"
       ],
       [
        "camada-contexto",
-       "https://inematds.github.io/camada-contexto/guia/"
+       "https://linnoff88-dev.github.io/arckhe-/guia/"
       ]
      ]
     },
@@ -423,14 +423,14 @@ Antes de limpar a conversa, grave `handoffs/ultimo.md` (modelo em `HANDOFF.md`) 
       "Deixe o Claude escolher; peça fork só quando souber que precisa do histórico.",
       "Lembre: subagente pode não ler o seu CLAUDE.md. Passe as regras no pedido."
      ],
-     "inema": [
+     "ARCKHÉ": [
       [
        "Subagentes (curso)",
-       "https://inematds.github.io/subagentes/"
+       "https://linnoff88-dev.github.io/arckhe-/"
       ],
       [
        "Arquiteto de Execução",
-       "https://inematds.github.io/agenteexecuta/guia/"
+       "https://linnoff88-dev.github.io/arckhe-/guia/"
       ]
      ]
     },
@@ -446,18 +446,18 @@ Antes de limpar a conversa, grave `handoffs/ultimo.md` (modelo em `HANDOFF.md`) 
       "Defina o que conta como resposta boa e as fontes aceitas.",
       "Confira o custo depois da primeira rodada."
      ],
-     "inema": [
+     "ARCKHÉ": [
       [
        "7conselho",
-       "https://inematds.github.io/7conselho/guia/"
+       "https://linnoff88-dev.github.io/arckhe-/guia/"
       ],
       [
        "STORM Research (curso)",
-       "https://inematds.github.io/storm-research/"
+       "https://linnoff88-dev.github.io/arckhe-/"
       ],
       [
        "Multiagentes (curso)",
-       "https://inematds.github.io/multiagentes/"
+       "https://linnoff88-dev.github.io/arckhe-/"
       ]
      ]
     }
@@ -482,14 +482,14 @@ Antes de limpar a conversa, grave `handoffs/ultimo.md` (modelo em `HANDOFF.md`) 
       "Deixe só os conectores que essa rotina usa.",
       "Ponha a verificação (dicas 9 e 10) antes de deixar rodar sozinha."
      ],
-     "inema": [
+     "ARCKHÉ": [
       [
        "LOOP-R",
-       "https://inematds.github.io/loop-r/guia/"
+       "https://linnoff88-dev.github.io/arckhe-/guia/"
       ],
       [
        "Área RSI",
-       "https://eventos.inema.pro/rsi/"
+       "https://eventos.ARCKHÉ.pro/rsi/"
       ]
      ]
     },
@@ -505,14 +505,14 @@ Antes de limpar a conversa, grave `handoffs/ultimo.md` (modelo em `HANDOFF.md`) 
       "Traga de volta com claude --teleport.",
       "Confira se o seu plano retoma a tarefa sozinho quando o limite de uso renova: se sim, ela gasta a próxima janela sem perguntar."
      ],
-     "inema": [
+     "ARCKHÉ": [
       [
        "OSWork v6.2",
-       "https://inematds.github.io/oswork-v62/"
+       "https://linnoff88-dev.github.io/arckhe-/"
       ],
       [
        "Execução Longa",
-       "https://inematds.github.io/execucao-longa/guia/"
+       "https://linnoff88-dev.github.io/arckhe-/guia/"
       ]
      ]
     }
@@ -651,7 +651,7 @@ Antes de limpar a conversa, grave `handoffs/ultimo.md` (modelo em `HANDOFF.md`) 
    [
     "Kit Verificador de Stop",
     "Biblioteca de hooks de Stop por tipo de trabalho: relatório, código, post, vídeo.",
-    "cchooks · inema-mods"
+    "cchooks · ARCKHÉ-mods"
    ],
    [
     "Kit Delegar Certo",
@@ -672,7 +672,7 @@ Antes de limpar a conversa, grave `handoffs/ultimo.md` (modelo em `HANDOFF.md`) 
  },
  "comunidade": {
   "chip": "Na comunidade",
-  "h2": "O que o INEMA já tem sobre isso",
+  "h2": "O que o ARCKHÉ já tem sobre isso",
   "sub": "Cursos, guias e kits abertos que aprofundam cada camada.",
   "grupos": [
    [
@@ -680,19 +680,19 @@ Antes de limpar a conversa, grave `handoffs/ultimo.md` (modelo em `HANDOFF.md`) 
     [
      [
       "Área Skills",
-      "https://eventos.inema.pro/skills/"
+      "https://eventos.ARCKHÉ.pro/skills/"
      ],
      [
       "Skills v6",
-      "https://inematds.github.io/skills-craft-v6/"
+      "https://linnoff88-dev.github.io/arckhe-/"
      ],
      [
       "Auditar Skills",
-      "https://inematds.github.io/auditar-skills/guia/"
+      "https://linnoff88-dev.github.io/arckhe-/guia/"
      ],
      [
       "Auditoria de Ablação",
-      "https://inematds.github.io/curso-ablacao/"
+      "https://linnoff88-dev.github.io/arckhe-/"
      ]
     ]
    ],
@@ -701,19 +701,19 @@ Antes de limpar a conversa, grave `handoffs/ultimo.md` (modelo em `HANDOFF.md`) 
     [
      [
       "cccache",
-      "https://inematds.github.io/cccache/"
+      "https://linnoff88-dev.github.io/arckhe-/"
      ],
      [
       "5-mods",
-      "https://inematds.github.io/5-mods/guia/"
+      "https://linnoff88-dev.github.io/arckhe-/guia/"
      ],
      [
       "Maestro Roteador",
-      "https://inematds.github.io/maestro-roteador/guia/"
+      "https://linnoff88-dev.github.io/arckhe-/guia/"
      ],
      [
       "faxina-agentes",
-      "https://inematds.github.io/faxina-agentes/guia/"
+      "https://linnoff88-dev.github.io/arckhe-/guia/"
      ]
     ]
    ],
@@ -722,19 +722,19 @@ Antes de limpar a conversa, grave `handoffs/ultimo.md` (modelo em `HANDOFF.md`) 
     [
      [
       "Execução Longa",
-      "https://inematds.github.io/execucao-longa/guia/"
+      "https://linnoff88-dev.github.io/arckhe-/guia/"
      ],
      [
       "Área Execução Longa",
-      "https://eventos.inema.pro/execucao-longa/"
+      "https://eventos.ARCKHÉ.pro/execucao-longa/"
      ],
      [
       "Automação & Hooks",
-      "https://inematds.github.io/cchooks/"
+      "https://linnoff88-dev.github.io/arckhe-/"
      ],
      [
-      "inema-mods",
-      "https://inematds.github.io/inema-mods/guia/"
+      "ARCKHÉ-mods",
+      "https://linnoff88-dev.github.io/arckhe-/guia/"
      ]
     ]
    ],
@@ -743,19 +743,19 @@ Antes de limpar a conversa, grave `handoffs/ultimo.md` (modelo em `HANDOFF.md`) 
     [
      [
       "skillmanager3x",
-      "https://inematds.github.io/skillmanager3x/guia/"
+      "https://linnoff88-dev.github.io/arckhe-/guia/"
      ],
      [
       "agente-claude-codex",
-      "https://inematds.github.io/agente-claude-codex/guia/"
+      "https://linnoff88-dev.github.io/arckhe-/guia/"
      ],
      [
       "Subagentes",
-      "https://inematds.github.io/subagentes/"
+      "https://linnoff88-dev.github.io/arckhe-/"
      ],
      [
       "7conselho",
-      "https://inematds.github.io/7conselho/guia/"
+      "https://linnoff88-dev.github.io/arckhe-/guia/"
      ]
     ]
    ],
@@ -764,19 +764,19 @@ Antes de limpar a conversa, grave `handoffs/ultimo.md` (modelo em `HANDOFF.md`) 
     [
      [
       "OSWork",
-      "https://eventos.inema.pro/oswork/"
+      "https://eventos.ARCKHÉ.pro/oswork/"
      ],
      [
       "OSWork v6.2",
-      "https://inematds.github.io/oswork-v62/"
+      "https://linnoff88-dev.github.io/arckhe-/"
      ],
      [
       "LOOP-R",
-      "https://inematds.github.io/loop-r/guia/"
+      "https://linnoff88-dev.github.io/arckhe-/guia/"
      ],
      [
       "Área Mods",
-      "https://eventos.inema.pro/mods/"
+      "https://eventos.ARCKHÉ.pro/mods/"
      ]
     ]
    ]
@@ -841,14 +841,14 @@ src=Path('src/pt.json')
 data=json.loads(src.read_text())
 T={
 'pt-BR':'en','Kit 15 Comandos':'15 Commands Kit','menos instrução, mais prova':'less instruction, more proof',
-'O Claude Code mudou: 15 comandos e recursos para trabalhar com menos instrução, gastar menos tokens e provar que o trabalho terminou. Como implementar cada um, kit para baixar e o que a comunidade INEMA já tem. Grátis, do INEMA.CLUB.':'Claude Code has changed: 15 commands and features to work with less instruction, use fewer tokens, and prove the work is done. How to implement each one, a kit to download, and what the INEMA community already has. Free from INEMA.CLUB.',
+'O Claude Code mudou: 15 comandos e recursos para trabalhar com menos instrução, gastar menos tokens e provar que o trabalho terminou. Como implementar cada um, kit para baixar e o que a comunidade ARCKHÉ já tem. Grátis, do ARCKHÉ AI.':'Claude Code has changed: 15 commands and features to work with less instruction, use fewer tokens, and prove the work is done. How to implement each one, a kit to download, and what the ARCKHÉ community already has. Free from ARCKHÉ AI.',
 'Tese':'Thesis','15 dicas':'15 tips','Cuidados':'Cautions','Próximos kits':'Upcoming kits','Comunidade':'Community','Vídeo':'Video','Alternar tema':'Toggle theme',
 'Claude Code · Codex · agentes':'Claude Code · Codex · agents','O Claude mudou. <span class=\"amb\">15 comandos</span> para dominar':'Claude has changed. <span class=\"amb\">15 commands</span> to master',
 'Os modelos ficaram bons o bastante para dispensar boa parte das instruções longas. O jogo agora é outro: dar o contexto certo, deixar o agente executar e exigir prova de que terminou.':'Models have become good enough to do without many long instructions. The game has changed: provide the right context, let the agent work, and require proof that it finished.',
 'Ver as 15 dicas':'See the 15 tips','Baixar o kit (.zip)':'Download the kit (.zip)','Banner: robô humanoide de visor preto trabalhando numa bancada com quinze cartões luminosos':'Banner: black-visored humanoid robot working at a bench with fifteen glowing cards','Em resumo':'In brief',
-'Este é um guia grátis para quem usa o Claude Code (e vale quase tudo para o Codex e outros agentes). São 15 mudanças em cinco camadas: skills, modelo e configurações, plano e prova, contexto e delegação, e trabalho rodando sem você. Para cada uma você vê o que mudou, como implementar com o comando exato e o que a comunidade INEMA já tem sobre o assunto. No fim há um kit para baixar, com modelos prontos, e a lista dos próximos kits que vamos criar.':'This is a free guide for Claude Code users (and almost everything applies to Codex and other agents). It covers 15 changes across five layers: skills, model and settings, plan and proof, context and delegation, and work running without you. For each one, you’ll see what changed, how to implement it with the exact command, and what the INEMA community already has on the topic. At the end, there’s a kit to download with ready-to-use templates, plus a list of upcoming kits we plan to create.',
+'Este é um guia grátis para quem usa o Claude Code (e vale quase tudo para o Codex e outros agentes). São 15 mudanças em cinco camadas: skills, modelo e configurações, plano e prova, contexto e delegação, e trabalho rodando sem você. Para cada uma você vê o que mudou, como implementar com o comando exato e o que a comunidade ARCKHÉ já tem sobre o assunto. No fim há um kit para baixar, com modelos prontos, e a lista dos próximos kits que vamos criar.':'This is a free guide for Claude Code users (and almost everything applies to Codex and other agents). It covers 15 changes across five layers: skills, model and settings, plan and proof, context and delegation, and work running without you. For each one, you’ll see what changed, how to implement it with the exact command, and what the ARCKHÉ community already has on the topic. At the end, there’s a kit to download with ready-to-use templates, plus a list of upcoming kits we plan to create.',
 'A tese':'The thesis','De prompt detalhado para contexto, execução e prova':'From detailed prompts to context, execution, and proof','Antes a gente escrevia trezentas linhas ensinando o agente a trabalhar. Hoje ele já sabe. O que ele não sabe é o seu contexto, e ninguém garante que terminou se você não pedir prova.':'We used to write three hundred lines teaching the agent how to work. Now it already knows. What it doesn’t know is your context, and no one can guarantee it finished unless you ask for proof.','Banner em grade: skills, modelo, prova, contexto, delegação, sem você':'Grid banner: skills, model, proof, context, delegation, without you','Contexto':'Context','Dê ao agente só o que ele não descobre sozinho: o seu negócio, as suas regras, onde estão as coisas. Em arquivos pequenos, chamados quando precisa.':'Give the agent only what it can’t figure out on its own: your business, your rules, and where things are. Keep it in small files that are called when needed.','Execução':'Execution','Deixe o agente trabalhar, delegar e continuar. Os padrões melhoraram; mexer em tudo costuma piorar.':'Let the agent work, delegate, and continue. Defaults have improved; changing everything usually makes things worse.','Verificação':'Verification','\"Terminei\" não é prova. Teste passando, arquivo gerado e um verificador que confere antes de deixar parar.':'“I’m done” is not proof. Require a passing test, a generated file, and a verifier that checks before allowing the agent to stop.','confirmado na 2.1.303':'confirmed in 2.1.303','conferir na sua versão':'check your version',
-'As 15 dicas':'The 15 tips','Cinco camadas, quinze mudanças':'Five layers, fifteen changes','Cada dica tem três partes: o que mudou, como implementar e o que já existe no INEMA. O selo diz se o comando foi conferido na nossa instalação ou se você deve conferir na sua.':'Each tip has three parts: what changed, how to implement it, and what already exists at INEMA. The badge tells you whether we checked the command in our installation or you should check it in yours.','O que mudou':'What changed','Como implementar':'How to implement','No INEMA':'At INEMA',
+'As 15 dicas':'The 15 tips','Cinco camadas, quinze mudanças':'Five layers, fifteen changes','Cada dica tem três partes: o que mudou, como implementar e o que já existe no ARCKHÉ. O selo diz se o comando foi conferido na nossa instalação ou se você deve conferir na sua.':'Each tip has three parts: what changed, how to implement it, and what already exists at ARCKHÉ. The badge tells you whether we checked the command in our installation or you should check it in yours.','O que mudou':'What changed','Como implementar':'How to implement','No ARCKHÉ':'At ARCKHÉ',
 'Skills':'Skills','Robô de visor preto diante de um manual enorme fechado e, ao lado, um único cartão pequeno com três linhas':'Black-visored robot facing a huge closed manual and, beside it, a single small card with three lines','A skill deixa de ser um manual e vira uma lista de correções.':'A skill stops being a manual and becomes a list of corrections.',
 'Skills menores':'Smaller skills','O modelo já escreve bem, organiza e evita texto robótico sem receita. Skill longa repete o que ele já faz e ocupa contexto. Ela deve guardar só o que ele erra e o conhecimento que só você tem.':'The model already writes well, stays organized, and avoids robotic text without a recipe. A long skill repeats what it can already do and takes up context. It should store only what it gets wrong and knowledge only you have.','Faça a tarefa sem skill nenhuma, numa sessão limpa.':'Do the task without any skill, in a clean session.','Anote só o que saiu errado ou diferente do seu jeito.':'Write down only what went wrong or differed from how you do it.','A skill vira essa lista: correções, nomes, caminhos, exceções do seu negócio.':'The skill becomes this list: corrections, names, paths, and exceptions for your business.','Revise a cada troca de modelo: o que ele passou a acertar sai da skill.':'Review whenever you switch models: remove anything the model has learned to get right.',
 'Criando Agent Skills':'Creating Agent Skills','Avalie com e sem a skill':'Evaluate with and without the skill','Skill boa é a que melhora o resultado. A comparação é simples: a mesma tarefa com a skill e sem ela. Se não ganhar, enxugue ou apague.':'A good skill improves the result. The comparison is simple: the same task with and without the skill. If it doesn’t help, trim it or delete it.','Escreva 3 a 5 casos reais da tarefa, com o que conta como resultado bom.':'Write 3 to 5 real task cases and define what counts as a good result.','Rode a mesma tarefa com e sem a skill (o eval de plugin já faz o braço \"sem\").':'Run the same task with and without the skill (the plugin eval already handles the “without” case).','Compare a nota: perdeu ou empatou, corte linhas; continuou empatando, apague.':'Compare the scores: if it lost or tied, cut lines; if it keeps tying, delete it.','Guarde os casos: viram o teste da próxima versão da skill.':'Keep the cases: they become the test for the next skill version.','Auditar Skills':'Audit Skills','Auditoria de Ablação (curso)':'Ablation Audit (course)','Grave a tarefa e vire skill':'Record the task and turn it into a skill','Em vez de escrever a skill, você faz a tarefa uma vez e o agente observa. Como ele só registra o que não saberia sozinho, a skill sai pequena.':'Instead of writing the skill, do the task once and let the agent observe. Since it records only what it couldn’t know on its own, the skill stays small.','No app desktop, use a gravação de skill e faça a tarefa como sempre faz.':'In the desktop app, use skill recording and do the task as usual.','Sem o recurso: faça a tarefa com o agente e, no fim, peça \"liste só o que eu precisei corrigir\".':'Without the feature: do the task with the agent and, at the end, ask it to “list only what I had to correct.”','Leia a skill gerada e tire o que for óbvio.':'Read the generated skill and remove anything obvious.','Passe pela dica 2 antes de adotar.':'Follow tip 2 before adopting it.','Área Skills':'Skills Area',
@@ -856,7 +856,7 @@ T={
 'Kit para baixar':'Downloadable kit','Um .zip com modelos prontos para copiar: skill de correções, roteiro de avaliação com e sem skill, /goal com prova, script de checagem, hook de Stop, handoff, ponteiros de contexto e a cola dos 15 comandos.':'A .zip file with ready-to-copy templates: a correction-only skill, an evaluation guide with and without a skill, /goal with proof, a check script, a Stop hook, a handoff, context pointers, and a 15-command cheat sheet.','Ver os arquivos no GitHub':'View the files on GitHub','Copiar':'Copy','Copiado':'Copied','O que vem no kit':'What’s in the kit','os 15 comandos numa página':'the 15 commands on one page','modelo de SKILL.md só com correções':'SKILL.md template with corrections only','casos e roteiro com e sem skill':'cases and guide with and without a skill','quando trocar, quando baixar o esforço':'when to switch, when to lower effort','/goal pronto + checa.sh de exemplo':'ready-to-use /goal + sample checa.sh','objetivo, pronto e limites em 10 linhas':'goal, completion criteria, and limits in 10 lines','handoff e CLAUDE.md só de ponteiros':'handoff and CLAUDE.md with pointers only','hook que confere antes de parar':'hook that checks before stopping','subagente, fork ou workflow':'subagent, fork, or workflow','rotina por webhook com cuidados':'webhook routine with safeguards','Três modelos para copiar agora':'Three templates to copy now','Cole na sessão depois de criar o checa.sh.':'Paste into the session after creating checa.sh.','Estrutura mínima de uma skill que vale a pena.':'The minimum structure for a useful skill.','Peça ao próprio Claude para montar o hook.':'Ask Claude itself to set up the hook.',
 'Outras considerações':'Other considerations','Antes de sair mudando tudo':'Before changing everything','Confira na sua versão':'Check your version','Recursos novos mudam de nome e saem do experimental. Rode claude --help e /help antes de seguir uma receita. O selo de cada dica diz o que conferimos aqui.':'New features change names and leave experimental status. Run claude --help and /help before following a recipe. Each tip’s badge tells you what we checked here.','Assinatura × API':'Subscription × API','Em assinatura o que pesa é o limite de uso; na API é a conta. Advisor e troca de modelo fazem sentido diferente em cada caso.':'With a subscription, what matters is the usage limit; with the API, it’s the bill. Advisor and switching models make different sense in each case.','Experimental é experimental':'Experimental means experimental','Advisor e hook do tipo agente ainda podem mudar. Use em projeto de teste antes do principal.':'Advisor and agent-type hooks may still change. Try them in a test project before using them in your main project.','Gatilho é porta aberta':'A trigger is an open door','A URL e o token de uma rotina disparam o agente. Trate como senha, limite os conectores e ponha teto de gasto.':'A routine’s URL and token trigger the agent. Treat them like a password, limit connectors, and set a spending cap.','Meça, não acredite':'Measure, don’t assume','Vale para skill, configuração e para este guia. Compare antes e depois com a mesma tarefa.':'This applies to skills, settings, and this guide. Compare before and after using the same task.','Contexto ainda é seu':'Context is still your responsibility','Nenhum recurso novo substitui saber o que o agente precisa ler. Pastas pequenas e ponteiros continuam sendo o melhor investimento.':'No new feature replaces knowing what the agent needs to read. Small folders and pointers are still the best investment.',
 'Kits que podemos criar':'Kits we could create','Propostas para a comunidade, cada uma ligada a um projeto que já temos. Ainda não estão prontas.':'Ideas for the community, each connected to a project we already have. They’re not ready yet.','Kit Skill Enxuta':'Lean Skill Kit','Roda cada skill instalada com e sem, mostra a nota e sugere o que cortar.':'Runs each installed skill with and without it, shows the score, and suggests what to cut.','Kit Prova de Pronto':'Proof of Completion Kit','Gera o checa.sh a partir do pedido e monta o /goal com prova e limite de voltas.':'Generates checa.sh from the request and builds a /goal with proof and an iteration limit.','Kit Handoff Verificado':'Verified Handoff Kit','Hook que confere o handoff contra os arquivos reais antes do /clear.':'A hook that checks the handoff against the actual files before /clear.','Kit Verificador de Stop':'Stop Verifier Kit','Biblioteca de hooks de Stop por tipo de trabalho: relatório, código, post, vídeo.':'A library of Stop hooks by type of work: report, code, post, video.','Kit Delegar Certo':'Smart Delegation Kit','Regra prática de subagente, fork e workflow, com teto de agentes e custo.':'Practical guidance for subagents, forks, and workflows, with agent and cost limits.','Kit Agente por Evento':'Event-Triggered Agent Kit','Rotina que acorda com webhook (pedido novo, mensagem, PR) para negócios.':'A routine triggered by a webhook (new request, message, PR) for businesses.','agentes comerciais':'business agents','Kit Config Limpa':'Clean Settings Kit','Compara o seu settings com o padrão e lista o que mudou sem motivo.':'Compares your settings with the defaults and lists changes without a clear reason.',
-'Na comunidade':'In the community','O que o INEMA já tem sobre isso':'What INEMA already has on this','Cursos, guias e kits abertos que aprofundam cada camada.':'Free courses, guides, and kits that explore each layer in more depth.','Modelo e custo':'Model and cost','Plano, prova e hooks':'Plan, proof, and hooks','Contexto e delegação':'Context and delegation','Área Execução Longa':'Long-Running Work Area','Automação & Hooks':'Automation & Hooks','Rodando sem você':'Running without you','Área Mods':'Mods Area','As 15 mudanças em vídeo':'The 15 changes in video','O explicativo completo e um reel curto para mandar para quem ainda escreve prompt de trezentas linhas.':'The full explainer and a short reel to send to anyone still writing three-hundred-line prompts.','Explicativo (16:9)':'Explainer (16:9)','Reel (9:16)':'Reel (9:16)','Baixar MP4':'Download MP4','Para lembrar':'Remember','Menos instrução, mais prova':'Less instruction, more proof','Robô de visor preto e uma pessoa diante de um quadro com três ícones: pasta, engrenagem e selo de verificado':'Black-visored robot and a person facing a board with three icons: folder, gear, and verified badge','só o que ele erra':'only what it gets wrong','escolha um e fique':'choose one and stick with it','teste, arquivo, verificador':'test, file, verifier','arquivos pequenos e ponteiros':'small files and pointers','só depois da verificação':'only after verification','O avanço não é dar mais autonomia ao agente. É ele trabalhar com menos instrução, gastar menos contexto e provar que terminou.':'Progress doesn’t mean giving the agent more autonomy. It means having it work with less instruction, use less context, and prove that it’s done.','Agentes':'Agents','Grátis':'Free','guia e kit abertos e gratuitos':'open, free guide and kit','Camada':'Layer'
+'Na comunidade':'In the community','O que o ARCKHÉ já tem sobre isso':'What ARCKHÉ already has on this','Cursos, guias e kits abertos que aprofundam cada camada.':'Free courses, guides, and kits that explore each layer in more depth.','Modelo e custo':'Model and cost','Plano, prova e hooks':'Plan, proof, and hooks','Contexto e delegação':'Context and delegation','Área Execução Longa':'Long-Running Work Area','Automação & Hooks':'Automation & Hooks','Rodando sem você':'Running without you','Área Mods':'Mods Area','As 15 mudanças em vídeo':'The 15 changes in video','O explicativo completo e um reel curto para mandar para quem ainda escreve prompt de trezentas linhas.':'The full explainer and a short reel to send to anyone still writing three-hundred-line prompts.','Explicativo (16:9)':'Explainer (16:9)','Reel (9:16)':'Reel (9:16)','Baixar MP4':'Download MP4','Para lembrar':'Remember','Menos instrução, mais prova':'Less instruction, more proof','Robô de visor preto e uma pessoa diante de um quadro com três ícones: pasta, engrenagem e selo de verificado':'Black-visored robot and a person facing a board with three icons: folder, gear, and verified badge','só o que ele erra':'only what it gets wrong','escolha um e fique':'choose one and stick with it','teste, arquivo, verificador':'test, file, verifier','arquivos pequenos e ponteiros':'small files and pointers','só depois da verificação':'only after verification','O avanço não é dar mais autonomia ao agente. É ele trabalhar com menos instrução, gastar menos contexto e provar que terminou.':'Progress doesn’t mean giving the agent more autonomy. It means having it work with less instruction, use less context, and prove that it’s done.','Agentes':'Agents','Grátis':'Free','guia e kit abertos e gratuitos':'open, free guide and kit','Camada':'Layer'
 }
 
 def convert(x):

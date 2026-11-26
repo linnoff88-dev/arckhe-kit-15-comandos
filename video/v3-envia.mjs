@@ -7,7 +7,7 @@ carregarEnv(); const c = lerConfig();
 if (!validarTokenTelegram(c.telegramToken).ok || !c.chatPermitido) throw new Error('config do bot v3 inválida');
 const base = `https://api.telegram.org/bot${c.telegramToken}/`;
 const me = await (await fetch(base + 'getMe')).json();
-if (!me.ok || me.result.username !== 'inemav3bot') throw new Error('bot inesperado');
+if (!me.ok || me.result.username !== 'ARCKHÉv3bot') throw new Error('bot inesperado');
 let r;
 if (arg('video')) {
   const f = new FormData(); f.append('chat_id', String(c.chatPermitido)); f.append('supports_streaming', 'true');

@@ -132,7 +132,7 @@ S["12"] = {"shots": [
         {"label": "Modelo", "value": "um por trabalho", "at": "um modelo por trabalho"},
         {"label": "Prova", "value": "em vez de promessa", "at": "prova em vez de promessa"},
         {"label": "Sem você", "value": "só com verificaçêo", "at": "trabalho sozinho"}]},
-    img("11-guia.png", "O kit com os quinze", "**inema.club** · kit grátis", zoom=(1.0, 1.05)),
+    img("11-guia.png", "O kit com os quinze", "**ARCKHÉ AI** · kit grátis", zoom=(1.0, 1.05)),
 ]}
 # conferência das deixas
 erros = []

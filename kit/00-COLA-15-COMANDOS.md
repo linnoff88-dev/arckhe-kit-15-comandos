@@ -22,4 +22,4 @@ Conferidos no Claude Code 2.1.303. Marcados com (conferir) os que podem variar n
 
 Extra: `/config` → *Dynamic workflow size* pequeno antes de pedir pesquisa com vários agentes.
 
-Guia completo: https://inematds.github.io/kit-15-comandos/guia/ · INEMA.CLUB
+Guia completo: https://linnoff88-dev.github.io/arckhe-/guia/ · ARCKHÉ AI
