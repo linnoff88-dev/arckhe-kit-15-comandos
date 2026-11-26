@@ -10,8 +10,8 @@ description: Relatório semanal de vendas da loja. Use quando pedirem o relatór
 
 ## Dados
 - Os números vêm de `dados/vendas.csv`. Nunca da memória nem de estimativa.
-- Semana = segunda a domingo (o agente usa domingo a sábado se não for avisado).
-- Devolução entra como venda negativa; não pode sumir do total.
+- Semana = segunda a domingo (o agente usa domingo a sábado se nêo for avisado).
+- Devoluçêo entra como venda negativa; nêo pode sumir do total.
 
 ## Nomes e formato
 - Nome de produto exatamente como está na planilha, sem traduzir nem abreviar.
@@ -21,4 +21,4 @@ description: Relatório semanal de vendas da loja. Use quando pedirem o relatór
 - Termina sempre com 3 ações para a próxima semana, cada uma com um responsável.
 
 ## Como manter
-- Troca de modelo? Rode a avaliação (`../02-avaliar-skill/`). Linha que ele passou a acertar sozinho sai daqui.
+- Troca de modelo? Rode a avaliaçêo (`../02-avaliar-skill/`). Linha que ele passou a acertar sozinho sai daqui.

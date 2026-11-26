@@ -6,8 +6,8 @@ regra(){ if eval "$2" >/dev/null 2>&1; then echo "OK      $1"; else echo "FALHOU
 
 regra "testes passam"                    "npm test --silent"            # ou: pytest -q
 regra "relatório gerado"                 "test -s relatorios/semana.md"
-regra "relatório tem 3 ações"            "[ \$(grep -c '^- \\[ação\\]' relatorios/semana.md) -eq 3 ]"
-regra "modelo não foi alterado"          "git diff --quiet -- templates/"
+regra "relatório tem 3 ações"            "[ \$(grep -c '^- \\[açêo\\]' relatorios/semana.md) -eq 3 ]"
+regra "modelo nêo foi alterado"          "git diff --quiet -- templates/"
 
 echo "---"; [ $falhas -eq 0 ] && echo "PRONTO" || echo "FALTAM $falhas"
 exit $falhas

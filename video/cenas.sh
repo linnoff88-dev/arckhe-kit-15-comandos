@@ -2,12 +2,12 @@
 # ilustrações do kit-15-comandos (página + vídeo), 3 por vez
 G=~/projetos/kit-15-comandos/video/gerar_img.sh; O=~/projetos/output/explica-kit-15-comandos
 run(){ "$G" "$O" "$@"; }
-run 01-capa "Escritório claro e moderno. A PROFISSIONAL, tranquila, de braços cruzados, observa o ROBÔ trabalhar sozinho numa bancada; ao lado do robô, uma pilha de caixas entregues, cada uma com um selo verde de verificado. Deixe o terço de cima da imagem com fundo limpo para o título." "MENOS INSTRUÇÃO, MAIS PROVA" &
+run 01-capa "Escritório claro e moderno. A PROFISSIONAL, tranquila, de braços cruzados, observa o ROBÔ trabalhar sozinho numa bancada; ao lado do robô, uma pilha de caixas entregues, cada uma com um selo verde de verificado. Deixe o terço de cima da imagem com fundo limpo para o título." "MENOS INSTRUÇêO, MAIS PROVA" &
 run 02-tese "Três pedestais lado a lado numa sala clara: no primeiro uma pasta de arquivos pequena e organizada, no segundo uma engrenagem girando, no terceiro um grande selo de verificado; a PROFISSIONAL aponta para os três enquanto o ROBÔ observa." &
-run c1-skills "O ROBÔ sentado numa mesa clara; à esquerda, um manual de papel enorme, grosso e fechado, empurrado para o canto; à direita, na mão do robô, um único cartão pequeno com três linhas curtas desenhadas (sem letras legíveis). A PROFISSIONAL entrega o cartão." &
+run c1-skills "O ROBÔ sentado numa mesa clara; à esquerda, um manual de papel enorme, grosso e fechado, empurrado para o canto; à direita, na mêo do robô, um único cartêo pequeno com três linhas curtas desenhadas (sem letras legíveis). A PROFISSIONAL entrega o cartêo." &
 wait
-run c2-modelo "Painel de controle claro na parede com um único seletor grande de modelo travado por um cadeado pequeno, e ao lado um botão redondo de intensidade que a PROFISSIONAL gira para o meio; o ROBÔ trabalha tranquilo ao fundo. Sem letras nem números." &
-run c3-prova "Bancada de inspeção clara: o ROBÔ entrega uma caixa à PROFISSIONAL, que confere com uma lupa grande; sobre a caixa, um carimbo verde de aprovado; ao fundo, uma tela mostra uma lista com marcas de verificado (sem letras)." &
+run c2-modelo "Painel de controle claro na parede com um único seletor grande de modelo travado por um cadeado pequeno, e ao lado um botêo redondo de intensidade que a PROFISSIONAL gira para o meio; o ROBÔ trabalha tranquilo ao fundo. Sem letras nem números." &
+run c3-prova "Bancada de inspeçêo clara: o ROBÔ entrega uma caixa à PROFISSIONAL, que confere com uma lupa grande; sobre a caixa, um carimbo verde de aprovado; ao fundo, uma tela mostra uma lista com marcas de verificado (sem letras)." &
 run c4-contexto "Um arquivo de gavetas pequenas de madeira clara, cada gaveta com um ícone simples diferente (sem letras); o ROBÔ puxa só uma gaveta aberta e lê uma ficha; ao lado, uma janela gigante transbordando de papéis soltos, bagunçada, mostrando o contraste." &
 wait
 run c5-sem-voce "Escritório à noite com luz fria: um notebook FECHADO sobre a mesa vazia; na parede, uma tela grande mostra três ROBÔS trabalhando numa sala de servidores clara, cada um numa tarefa; um pequeno ícone de nuvem no canto da tela." &

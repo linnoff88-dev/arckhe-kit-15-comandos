@@ -1,14 +1,14 @@
 # Rotina que acorda com um evento
 
 Rotinas rodam o Claude na nuvem (`/schedule`, alias `/routines`). Além de horário, podem começar por um
-pedido web ou um evento do repositório (conferir na sua versão). O computador pode estar desligado.
+pedido web ou um evento do repositório (conferir na sua versêo). O computador pode estar desligado.
 
 ## Montagem
 1. **Nome e pedido.** O pedido tem objetivo, pronto e limites (modelo em `../05-plano-curto.md`).
 2. **Repositório** onde ela trabalha.
 3. **Gatilho:** horário, API (URL + token) ou evento do GitHub.
 4. **Conectores:** deixe só os que esta rotina usa. Cada conector a mais é contexto e risco a mais.
-5. **Verificação antes de soltar:** checa.sh + hook de Stop (pastas 04 e 07).
+5. **Verificaçêo antes de soltar:** checa.sh + hook de Stop (pastas 04 e 07).
 
 ## Disparar pelo gatilho de API (exemplo)
 ```bash

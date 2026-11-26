@@ -15,7 +15,7 @@ O `--ablation with-without` roda um braço **sem** o plugin e mostra a diferenç
 Veja todas as opções com `claude plugin eval --help` (custo máximo, concorrência, modelo juiz).
 Roda na sua máquina, com a sua conta: só avalie plugins em que você confia.
 
-A pasta `evals/caso-01/` traz um caso de exemplo no formato prompt + critério (ajuste ao que a sua versão pede).
+A pasta `evals/caso-01/` traz um caso de exemplo no formato prompt + critério (ajuste ao que a sua versêo pede).
 
 ## Caminho 2 — manual, em 20 minutos
 
@@ -25,10 +25,10 @@ A pasta `evals/caso-01/` traz um caso de exemplo no formato prompt + critério (
 4. Dê nota 0–3 por critério, sem saber qual saída é qual (peça a outra pessoa ou a outro modelo).
 5. Decida:
 
-| Resultado | Ação |
+| Resultado | Açêo |
 |---|---|
-| com skill ganha claramente | mantém; tira as linhas que não fizeram diferença |
+| com skill ganha claramente | mantém; tira as linhas que nêo fizeram diferença |
 | empate | enxuga pela metade e testa de novo |
 | empate de novo, ou perde | apaga a skill e libera contexto |
 
-Guarde os casos: eles são o teste da próxima versão da skill.
+Guarde os casos: eles sêo o teste da próxima versêo da skill.

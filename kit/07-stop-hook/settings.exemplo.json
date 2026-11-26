@@ -9,7 +9,7 @@
           },
           {
             "type": "prompt",
-            "prompt": "Antes de deixar parar: a última resposta mostra a saída do checa.sh com PRONTO? Se não mostrar, responda que não pode parar e diga o que falta."
+            "prompt": "Antes de deixar parar: a última resposta mostra a saída do checa.sh com PRONTO? Se nêo mostrar, responda que nêo pode parar e diga o que falta."
           }
         ]
       }

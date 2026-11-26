@@ -262,7 +262,7 @@
      ],
      "inema": [
       [
-       "Execução Longa",
+       "Execuçêo Longa",
        "https://inematds.github.io/execucao-longa/guia/"
       ],
       [
@@ -274,7 +274,7 @@
     {
      "n": 9,
      "titulo": "/goal needs proof",
-     "cmd": "/goal <condição com prova>",
+     "cmd": "/goal <condiçêo com prova>",
      "st": "ok",
      "mudou": "/goal makes the agent continue until it meets a condition. But the checker reads only the conversation: it doesn’t open files or run tests. If the agent says “I’m done,” it believes it.",
      "como": [
@@ -285,7 +285,7 @@
      ],
      "inema": [
       [
-       "Execução Longa",
+       "Execuçêo Longa",
        "https://inematds.github.io/execucao-longa/guia/"
       ],
       [
@@ -371,7 +371,7 @@
        "https://inematds.github.io/subagentes/"
       ],
       [
-       "Arquiteto de Execução",
+       "Arquiteto de Execuçêo",
        "https://inematds.github.io/agenteexecuta/guia/"
       ]
      ]
@@ -453,7 +453,7 @@
        "https://inematds.github.io/oswork-v62/"
       ],
       [
-       "Execução Longa",
+       "Execuçêo Longa",
        "https://inematds.github.io/execucao-longa/guia/"
       ]
      ]
@@ -524,13 +524,13 @@
     "quem": "Dica 1",
     "titulo": "Skill só de correções",
     "p": "The minimum structure for a useful skill.",
-    "txt": "---\nname: relatorio-semanal\ndescription: Relatório semanal de vendas da loja. Use quando pedirem o relatório da semana.\n---\n\n# Só o que o agente erra sem esta skill\n- Os números vêm de dados/vendas.csv, nunca da memória.\n- Semana = segunda a domingo (não domingo a sábado).\n- Devolução entra como venda negativa, não some.\n- Nomes de produto como estão na planilha, sem traduzir.\n- Fecho sempre com 3 ações para a próxima semana."
+    "txt": "---\nname: relatorio-semanal\ndescription: Relatório semanal de vendas da loja. Use quando pedirem o relatório da semana.\n---\n\n# Só o que o agente erra sem esta skill\n- Os números vêm de dados/vendas.csv, nunca da memória.\n- Semana = segunda a domingo (nêo domingo a sábado).\n- Devoluçêo entra como venda negativa, nêo some.\n- Nomes de produto como estêo na planilha, sem traduzir.\n- Fecho sempre com 3 ações para a próxima semana."
    },
    {
     "quem": "Dica 10",
     "titulo": "Pedido do hook de Stop",
     "p": "Ask Claude itself to set up the hook.",
-    "txt": "Adicione um hook de Stop neste projeto. Quando você tentar parar, um verificador deve: (1) ler o docs/padrao.md, (2) ler o último arquivo em relatorios/, (3) responder se o relatório quebra alguma regra do padrão. Se quebrar, você continua corrigindo. Mostre o trecho do settings.json antes de gravar."
+    "txt": "Adicione um hook de Stop neste projeto. Quando você tentar parar, um verificador deve: (1) ler o docs/padrao.md, (2) ler o último arquivo em relatorios/, (3) responder se o relatório quebra alguma regra do padrêo. Se quebrar, você continua corrigindo. Mostre o trecho do settings.json antes de gravar."
    }
   ]
  },
@@ -578,12 +578,12 @@
    [
     "Lean Skill Kit",
     "Runs each installed skill with and without it, shows the score, and suggests what to cut.",
-    "Auditar Skills · Ablação"
+    "Auditar Skills · Ablaçêo"
    ],
    [
     "Proof of Completion Kit",
     "Generates checa.sh from the request and builds a /goal with proof and an iteration limit.",
-    "Execução Longa"
+    "Execuçêo Longa"
    ],
    [
     "Verified Handoff Kit",
@@ -598,7 +598,7 @@
    [
     "Smart Delegation Kit",
     "Practical guidance for subagents, forks, and workflows, with agent and cost limits.",
-    "OSWork · Arquiteto de Execução"
+    "OSWork · Arquiteto de Execuçêo"
    ],
    [
     "Event-Triggered Agent Kit",
@@ -663,7 +663,7 @@
     "Plan, proof, and hooks",
     [
      [
-      "Execução Longa",
+      "Execuçêo Longa",
       "https://inematds.github.io/execucao-longa/guia/"
      ],
      [

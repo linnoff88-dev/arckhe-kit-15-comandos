@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 # uso: monta.sh <cfg-v1.json> <cfg-v2.json> <dir-producao> <heygen-id> <titulo>
-# espera o avatar baixado, renderiza v1 (transcrição + base) e depois o v2 (visual em <dir>/visual/pt-b01.json).
+# espera o avatar baixado, renderiza v1 (transcriçêo + base) e depois o v2 (visual em <dir>/visual/pt-b01.json).
 set -euo pipefail
 C1=$1; C2=$2; D=$3; ID=$4; T=$5
 EV=~/projetos/explicavideos; A=$D/v1/assets/nei-pt-b01.mp4

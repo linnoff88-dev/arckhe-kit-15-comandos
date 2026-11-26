@@ -106,7 +106,7 @@
        "https://inematds.github.io/auditar-skills/guia/"
       ],
       [
-       "Auditoria de Ablação (curso)",
+       "Auditoria de Ablaçêo (curso)",
        "https://inematds.github.io/curso-ablacao/"
       ],
       [
@@ -234,7 +234,7 @@
        "https://inematds.github.io/faxina-agentes/guia/"
       ],
       [
-       "Auditoria de Ablação",
+       "Auditoria de Ablaçêo",
        "https://inematds.github.io/curso-ablacao/"
       ]
      ]
@@ -262,7 +262,7 @@
      ],
      "inema": [
       [
-       "Execução Longa",
+       "Execuçêo Longa",
        "https://inematds.github.io/execucao-longa/guia/"
       ],
       [
@@ -274,7 +274,7 @@
     {
      "n": 9,
      "titulo": "/goal necesita pruebas",
-     "cmd": "/goal <condição com prova>",
+     "cmd": "/goal <condiçêo com prova>",
      "st": "ok",
      "mudou": "/goal hace que el agente continúe hasta cumplir una condición. Pero quien verifica solo lee la conversación: no abre archivos ni ejecuta pruebas. Si el agente dice «terminé», le cree.",
      "como": [
@@ -285,7 +285,7 @@
      ],
      "inema": [
       [
-       "Execução Longa",
+       "Execuçêo Longa",
        "https://inematds.github.io/execucao-longa/guia/"
       ],
       [
@@ -308,7 +308,7 @@
      ],
      "inema": [
       [
-       "Automação & Hooks (curso)",
+       "Automaçêo & Hooks (curso)",
        "https://inematds.github.io/cchooks/"
       ],
       [
@@ -371,7 +371,7 @@
        "https://inematds.github.io/subagentes/"
       ],
       [
-       "Arquiteto de Execução",
+       "Arquiteto de Execuçêo",
        "https://inematds.github.io/agenteexecuta/guia/"
       ]
      ]
@@ -453,7 +453,7 @@
        "https://inematds.github.io/oswork-v62/"
       ],
       [
-       "Execução Longa",
+       "Execuçêo Longa",
        "https://inematds.github.io/execucao-longa/guia/"
       ]
      ]
@@ -524,13 +524,13 @@
     "quem": "Consejo 1",
     "titulo": "Skill solo de correcciones",
     "p": "Estructura mínima de una skill útil.",
-    "txt": "---\nname: relatorio-semanal\ndescription: Relatório semanal de vendas da loja. Use quando pedirem o relatório da semana.\n---\n\n# Só o que o agente erra sem esta skill\n- Os números vêm de dados/vendas.csv, nunca da memória.\n- Semana = segunda a domingo (não domingo a sábado).\n- Devolução entra como venda negativa, não some.\n- Nomes de produto como estão na planilha, sem traduzir.\n- Fecho sempre com 3 ações para a próxima semana."
+    "txt": "---\nname: relatorio-semanal\ndescription: Relatório semanal de vendas da loja. Use quando pedirem o relatório da semana.\n---\n\n# Só o que o agente erra sem esta skill\n- Os números vêm de dados/vendas.csv, nunca da memória.\n- Semana = segunda a domingo (nêo domingo a sábado).\n- Devoluçêo entra como venda negativa, nêo some.\n- Nomes de produto como estêo na planilha, sem traduzir.\n- Fecho sempre com 3 ações para a próxima semana."
    },
    {
     "quem": "Consejo 10",
     "titulo": "Solicitud para el hook de Stop",
     "p": "Pídele al propio Claude que configure el hook.",
-    "txt": "Adicione um hook de Stop neste projeto. Quando você tentar parar, um verificador deve: (1) ler o docs/padrao.md, (2) ler o último arquivo em relatorios/, (3) responder se o relatório quebra alguma regra do padrão. Se quebrar, você continua corrigindo. Mostre o trecho do settings.json antes de gravar."
+    "txt": "Adicione um hook de Stop neste projeto. Quando você tentar parar, um verificador deve: (1) ler o docs/padrao.md, (2) ler o último arquivo em relatorios/, (3) responder se o relatório quebra alguma regra do padrêo. Se quebrar, você continua corrigindo. Mostre o trecho do settings.json antes de gravar."
    }
   ]
  },
@@ -578,12 +578,12 @@
    [
     "Kit de skills breves",
     "Ejecuta cada skill instalada con y sin ella, muestra la puntuación y sugiere qué recortar.",
-    "Auditar Skills · Ablação"
+    "Auditar Skills · Ablaçêo"
    ],
    [
     "Kit de pruebas de finalización",
     "Genera checa.sh a partir de la solicitud y prepara /goal con pruebas y un límite de iteraciones.",
-    "Execução Longa"
+    "Execuçêo Longa"
    ],
    [
     "Kit de handoff verificado",
@@ -598,7 +598,7 @@
    [
     "Kit para delegar bien",
     "Guía práctica de subagentes, forks y flujos de trabajo, con límites de agentes y costos.",
-    "OSWork · Arquiteto de Execução"
+    "OSWork · Arquiteto de Execuçêo"
    ],
    [
     "Kit de agente por evento",
@@ -633,7 +633,7 @@
       "https://inematds.github.io/auditar-skills/guia/"
      ],
      [
-      "Auditoria de Ablação",
+      "Auditoria de Ablaçêo",
       "https://inematds.github.io/curso-ablacao/"
      ]
     ]
@@ -663,7 +663,7 @@
     "Plan, pruebas y hooks",
     [
      [
-      "Execução Longa",
+      "Execuçêo Longa",
       "https://inematds.github.io/execucao-longa/guia/"
      ],
      [
@@ -671,7 +671,7 @@
       "https://eventos.inema.pro/execucao-longa/"
      ],
      [
-      "Automação & Hooks",
+      "Automaçêo & Hooks",
       "https://inematds.github.io/cchooks/"
      ],
      [

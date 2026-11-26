@@ -1,6 +1,6 @@
 # Kit 15 Comandos — INEMA.CLUB
 
-Modelos prontos para trabalhar com o Claude Code (e outros agentes) com **menos instrução, menos tokens e prova de
+Modelos prontos para trabalhar com o Claude Code (e outros agentes) com **menos instruçêo, menos tokens e prova de
 que terminou**. Grátis. Guia: https://inematds.github.io/kit-15-comandos/guia/
 
 | Arquivo | Dicas | Para quê |
@@ -16,5 +16,5 @@ que terminou**. Grátis. Guia: https://inematds.github.io/kit-15-comandos/guia/
 | `08-delegar.md` | 12, 13 | subagente, fork ou workflow |
 | `09-rotina-evento/` | 14, 15 | rotina por evento e nuvem, com cuidados |
 
-Conferido no Claude Code 2.1.303 (out/2026). Recursos mudam: rode `claude --help` e `/help` na sua versão.
+Conferido no Claude Code 2.1.303 (out/2026). Recursos mudam: rode `claude --help` e `/help` na sua versêo.
 Licença MIT.
